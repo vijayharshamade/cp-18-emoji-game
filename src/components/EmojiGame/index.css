@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+.emoji-game-body {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fbc7d4; */
+  align-items: center;
+  flex: 1;
+}
+.emojis-list-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding: 0px;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  /* background-color: aliceblue; */
+}
